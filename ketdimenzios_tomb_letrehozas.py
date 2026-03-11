@@ -12,5 +12,9 @@ for i in range(sor):
         szam += 1
     tomb.append(sor_tomb)
 
-print(tomb)
+# print(tomb)
 
+for sor in tomb:
+    for oszlop in sor:
+        print(oszlop, end=" ")
+    print()

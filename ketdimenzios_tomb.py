@@ -6,14 +6,14 @@ matrix = [
 
 # print(matrix[1][1])
 
-for sor in matrix:
-    # print(sor)
-    for oszlop in sor:
-        print(oszlop, end=" ")
-    print()
+# for sor in matrix:
+#     # print(sor)
+#     for oszlop in sor:
+#         print(oszlop, end=" ")
+#     print()
 
 for i in range(0, len(matrix)):
-    print(matrix[i])
+    # print(matrix[i])
     for j in range(0, len(matrix[i])):
         print(matrix[i][j], end=" ")
     print()
